@@ -9,18 +9,18 @@ This project leverages Generative AI (GenAI) to transform traditional audit proc
 Google Gemini Integration: This Large Language Model (LLM) provides interpretative insights into the cosine scores, helping auditors make more informed decisions.
 
 **Project Aim**
-*Enhance Audit Efficiency: Reduce the time auditors spend reviewing evidence manually by automating the comparison process.
-*Improve Accuracy: Provide auditors with an accurate similarity score and relevant sentence highlights to ensure that no critical information is missed.
-*Streamline Audit Review Process: Offer a clear, easy-to-understand interface that reduces the need for auditors to manually sift through lengthy documentation.
+* Enhance Audit Efficiency: Reduce the time auditors spend reviewing evidence manually by automating the comparison process.
+* Improve Accuracy: Provide auditors with an accurate similarity score and relevant sentence highlights to ensure that no critical information is missed.
+* Streamline Audit Review Process: Offer a clear, easy-to-understand interface that reduces the need for auditors to manually sift through lengthy documentation.
 
 **Methodology**
-*Data Preprocessing: Clean and prepare the audit action items and evidence.
-*Sentence Embedding: Use Sentence-BERT to embed both the action items and evidence into a high-dimensional space.
-*Cosine Similarity Calculation: Compute the similarity between the action and evidence, providing a single score to help auditors assess the match.
-*Top 5 Sentence Extraction: Identify the five most relevant sentences in the evidence to further assist in the decision-making process.
-*Google Gemini Integration: Use the Gemini model to generate insights and explain how the cosine similarity score relates to the audit issue.
+* Data Preprocessing: Clean and prepare the audit action items and evidence.
+* Sentence Embedding: Use Sentence-BERT to embed both the action items and evidence into a high-dimensional space.
+* Cosine Similarity Calculation: Compute the similarity between the action and evidence, providing a single score to help auditors assess the match.
+* Top 5 Sentence Extraction: Identify the five most relevant sentences in the evidence to further assist in the decision-making process.
+* Google Gemini Integration: Use the Gemini model to generate insights and explain how the cosine similarity score relates to the audit issue.
 
 **Technology Stack**
-Python Flask: Web framework for building and hosting the application.
-Sentence-BERT: Pre-trained model for embedding action items and evidence.
-Google Gemini: Large Language Model for interpreting cosine similarity scores.
+* Python Flask: Web framework for building and hosting the application.
+* Sentence-BERT: Pre-trained model for embedding action items and evidence.
+* Google Gemini: Large Language Model for interpreting cosine similarity scores.
