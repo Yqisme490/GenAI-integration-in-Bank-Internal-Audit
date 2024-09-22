@@ -24,3 +24,11 @@ Google Gemini Integration: This Large Language Model (LLM) provides interpretati
 * Python Flask: Web framework for building and hosting the application.
 * Sentence-BERT: Pre-trained model for embedding action items and evidence.
 * Google Gemini: Large Language Model for interpreting cosine similarity scores.
+
+**Audit Review sample input page**
+![image](https://github.com/user-attachments/assets/d633a362-c0ed-454e-9271-42fb78c95b91)
+
+**Audit Review sample output page (Action Closed)**
+![image](https://github.com/user-attachments/assets/c7d8bcae-8b79-4762-8419-4002e16bd21f)
+![image](https://github.com/user-attachments/assets/ccdab7a0-bab9-42ed-97bb-80485e2f0d54)
+
